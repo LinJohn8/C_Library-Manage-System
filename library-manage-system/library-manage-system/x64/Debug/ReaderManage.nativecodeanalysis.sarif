@@ -1,0 +1,218 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 2,
+                  "endLine": 89,
+                  "endColumn": 118
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readerManage_input",
+                  "decoratedName": "readerManage_input",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 2,
+                  "endLine": 104,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readerManage_modify",
+                  "decoratedName": "readerManage_modify",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 2,
+                  "endLine": 112,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readerManage_modify",
+                  "decoratedName": "readerManage_modify",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+                },
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 2,
+                  "endLine": 124,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readerManage_remove",
+                  "decoratedName": "readerManage_remove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+                },
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 2,
+                  "endLine": 143,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readerManage_search",
+                  "decoratedName": "readerManage_search",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31107.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF61D749CC0 -il C:\\Users\\86158\\AppData\\Local\\Temp\\_CL_997ab8e1ast -typedil -f ReaderManage.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131107 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\ReaderManage.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory E:\\c++work\\library-manage-system\\library-manage-system -analyze:rulesetdirectory ;E:\\c++\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset E:\\c++\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\c++\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um -external:I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I E:\\c++\\VC\\Auxiliary\\VS\\include -I E:\\c++\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um -I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2657487f83168eae5ba1e2ce84b56922dc4a84695013d1d074afb481fb392c31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/readermanage.h"
+          },
+          "hashes": {
+            "sha-256": "c8e53222baac78fc60648c9293b37c51811b5273c463e72e0a8211f9c8abe413"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/list.h"
+          },
+          "hashes": {
+            "sha-256": "8effc1cbbd3a9af5749c2bfe284afe15688c95ad6dd8eeff2d0e18e46adb7547"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/reader.h"
+          },
+          "hashes": {
+            "sha-256": "5404c6c36290cef8dabeffe4ad3b5529322f15e2d72e3f0bd1bbd09c04d137e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/menu.h"
+          },
+          "hashes": {
+            "sha-256": "9ef7c43c99d2389ce4b807f3b78194e795ef6076cb9db30e9ce78f0a7b9b266e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/user.h"
+          },
+          "hashes": {
+            "sha-256": "eda2c1ee4c04643af5ae2422a6161157d611b3a453c1b7e3b804f93b4998a407"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\c++work\library-manage-system\library-manage-system\</FILEPATH>
+      <FILENAME>ReaderManage.c</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>readerManage_input</FUNCTION>
+    <DECORATED>readerManage_input</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\c++work\library-manage-system\library-manage-system\</FILEPATH>
+      <FILENAME>ReaderManage.c</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>readerManage_modify</FUNCTION>
+    <DECORATED>readerManage_modify</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\c++work\library-manage-system\library-manage-system\</FILEPATH>
+      <FILENAME>ReaderManage.c</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>readerManage_modify</FUNCTION>
+    <DECORATED>readerManage_modify</DECORATED>
+    <FUNCLINE>96</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\c++work\library-manage-system\library-manage-system\</FILEPATH>
+      <FILENAME>ReaderManage.c</FILENAME>
+      <LINE>124</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>readerManage_remove</FUNCTION>
+    <DECORATED>readerManage_remove</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\c++work\library-manage-system\library-manage-system\</FILEPATH>
+      <FILENAME>ReaderManage.c</FILENAME>
+      <LINE>143</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>readerManage_search</FUNCTION>
+    <DECORATED>readerManage_search</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

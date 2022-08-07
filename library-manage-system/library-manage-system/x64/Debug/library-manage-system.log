@@ -1,0 +1,9 @@
+﻿  BookManage.c
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(32,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(49,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(132,11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(150,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(156,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\c++work\library-manage-system\library-manage-system\BookManage.c(212,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  library-manage-system.vcxproj -> E:\c++work\library-manage-system\x64\Debug\library-manage-system.exe

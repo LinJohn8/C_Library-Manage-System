@@ -1,0 +1,248 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/CirculateManage.c"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 2,
+                  "endLine": 76,
+                  "endColumn": 65
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "circulateManage_borrowBook",
+                  "decoratedName": "circulateManage_borrowBook",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/c++work/library-manage-system/library-manage-system/CirculateManage.c"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 2,
+                  "endLine": 102,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "circulateManage_returnBook",
+                  "decoratedName": "circulateManage_returnBook",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31107.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF61D749CC0 -il C:\\Users\\86158\\AppData\\Local\\Temp\\_CL_b97fbb3cast -typedil -f CirculateManage.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131107 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\CirculateManage.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory E:\\c++work\\library-manage-system\\library-manage-system -analyze:rulesetdirectory ;E:\\c++\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset E:\\c++\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\c++\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um -external:I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I E:\\c++\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I E:\\c++\\VC\\Auxiliary\\VS\\include -I E:\\c++\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um -I E:\\c++work\\library-manage-system\\library-manage-system\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/c++work/library-manage-system/library-manage-system/ReaderManage.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2657487f83168eae5ba1e2ce84b56922dc4a84695013d1d074afb481fb392c31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/readermanage.h"
+          },
+          "hashes": {
+            "sha-256": "c8e53222baac78fc60648c9293b37c51811b5273c463e72e0a8211f9c8abe413"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/list.h"
+          },
+          "hashes": {
+            "sha-256": "8effc1cbbd3a9af5749c2bfe284afe15688c95ad6dd8eeff2d0e18e46adb7547"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/reader.h"
+          },
+          "hashes": {
+            "sha-256": "5404c6c36290cef8dabeffe4ad3b5529322f15e2d72e3f0bd1bbd09c04d137e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/menu.h"
+          },
+          "hashes": {
+            "sha-256": "9ef7c43c99d2389ce4b807f3b78194e795ef6076cb9db30e9ce78f0a7b9b266e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/user.h"
+          },
+          "hashes": {
+            "sha-256": "eda2c1ee4c04643af5ae2422a6161157d611b3a453c1b7e3b804f93b4998a407"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/reader.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9049c8767775a827d4d1c68094cd294213aac9c38d8830031843ab4939c65355"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/c++work/library-manage-system/library-manage-system/menu.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f7bba499ff0b5d1826166120217bcd6dbfcb51787b747fe5f60f25b20cf1c779"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/c++work/library-manage-system/library-manage-system/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5fb6e0160be96e0dc11bf81c7326f519aa3ad8de9958e1809dd0d2c288c7c85d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/usermanage.h"
+          },
+          "hashes": {
+            "sha-256": "cbcb4ba8e0ac058de712bae2914f12486b9909d8d33a4c1b4e3a3b7f9b4d116d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/bookmanage.h"
+          },
+          "hashes": {
+            "sha-256": "8fab7c36ca9443d9eb236b9fdc1289b259385e85c2ba1d3237bf8e25c58de24b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/seqlist.h"
+          },
+          "hashes": {
+            "sha-256": "bc455a809d27f73577bfd80a653482a27824cb4b244bf3d03de3aa8f611a250c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/configure.h"
+          },
+          "hashes": {
+            "sha-256": "7f814af0c05677deba9b1a6abaab717c8d0f2dca62357e2c5bb8132b21201354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/book.h"
+          },
+          "hashes": {
+            "sha-256": "1ffae5cb605a1f1e6e7aca1f38e8ae1089ce02060a42c1343e2d8b1e6d1034cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/circulatemanage.h"
+          },
+          "hashes": {
+            "sha-256": "74d9c71565916c042c5d29992ef3da0d7b0cba5329a0abf9c67bc9950d71e9e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/circulate.h"
+          },
+          "hashes": {
+            "sha-256": "aa12be7dc25c1a8db36977de8820b6763ea8b30b672bd060ff2286672dc0903a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/c++work/library-manage-system/library-manage-system/list.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fddfc6077633c55f8974e748a6d5d7e1b66ac57e56f92ef8b0bf710c49977008"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/c++work/library-manage-system/library-manage-system/CirculateManage.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0d8a1d35338c046f9025d69cf55b0acb452da7d1797f26fae377fb56a5d7ee65"
+          }
+        }
+      ]
+    }
+  ]
+}
